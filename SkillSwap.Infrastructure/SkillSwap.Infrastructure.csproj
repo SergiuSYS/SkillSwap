@@ -5,6 +5,13 @@
     <ProjectReference Include="..\SkillSwap.Domain\SkillSwap.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="DependencyInjection\" />
+    <Folder Include="Services\" />
+    <Folder Include="Persistence\Repositories\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
